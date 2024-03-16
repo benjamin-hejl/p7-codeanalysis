@@ -1,0 +1,8 @@
+﻿<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="Microsoft.CodeAnalysis" Version="4.8.0" />
+    </ItemGroup>
+</Project>

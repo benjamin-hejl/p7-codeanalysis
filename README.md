@@ -1,2 +1,2 @@
-# p7-codeanalysis
-A collection of extensions for code analysis.
+# P7 CodeAnalysis
+A collection of extensions for code analyzers and source generators.
