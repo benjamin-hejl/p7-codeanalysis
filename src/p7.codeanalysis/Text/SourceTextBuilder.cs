@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace P7.CodeAnalysis.SourceGeneration
+namespace P7.CodeAnalysis.Text
 {
     public class SourceTextBuilder
     {
@@ -42,9 +42,9 @@ namespace P7.CodeAnalysis.SourceGeneration
 
         private readonly Dictionary<(String, String), IndentedBlockHandle> _blockCache = new Dictionary<(String, String), IndentedBlockHandle>();
 
-        public static readonly Char DefaultIndentChar = ' ';
-        public static readonly Int32 DefaultIndentSize = 4;
-        public static readonly String DefaultLineEnd = Environment.NewLine;
+        private static readonly Char DefaultIndentChar = ' ';
+        private static readonly Int32 DefaultIndentSize = 4;
+        private static readonly String DefaultLineEnd = Environment.NewLine;
 
         private readonly StringBuilder _stringBuilder = new StringBuilder();
         private readonly Char _indentChar;
