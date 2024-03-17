@@ -20,7 +20,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p7.codeanalysis", "src\p7.codeanalysis\p7.codeanalysis.csproj", "{4A305572-D3C2-4F8A-A30D-8E031F66A2FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p7.codeanalysis.tests", "tests\p7.codeanalysis.tests\p7.codeanalysis.tests.csproj", "{4D31A674-8D73-4B2E-9BF2-4651D7C32AD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "p7.codeanalysis.tests", "tests\p7.codeanalysis.tests\p7.codeanalysis.tests.csproj", "{4D31A674-8D73-4B2E-9BF2-4651D7C32AD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{B4E4258F-28AC-4596-B7E9-086A3F0ABA45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{84DD6B70-1DC6-4C99-B6FD-8BEBCA0AE327}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\ci.yml = .github\workflows\ci.yml
+		.github\workflows\publish-nuget-prerelease.yml = .github\workflows\publish-nuget-prerelease.yml
+		.github\workflows\publish-nuget.yml = .github\workflows\publish-nuget.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +52,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4A305572-D3C2-4F8A-A30D-8E031F66A2FC} = {E6FBE6E9-C684-4CF0-9C6A-1CEE0813D76A}
 		{4D31A674-8D73-4B2E-9BF2-4651D7C32AD4} = {06F50749-6A5C-4954-B0C1-6505E865371B}
+		{B4E4258F-28AC-4596-B7E9-086A3F0ABA45} = {8807900C-DE3A-4CD8-B488-9BFBCE940EAF}
+		{84DD6B70-1DC6-4C99-B6FD-8BEBCA0AE327} = {B4E4258F-28AC-4596-B7E9-086A3F0ABA45}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D142D390-BDDA-44C3-B84F-4C21DB1287BF}
